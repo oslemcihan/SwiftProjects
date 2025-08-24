@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UyariMesajlari" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Go4-V2-FIB">
+                                <rect key="frame" x="32" y="219" width="328" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dic-dd-Knl">
+                                <rect key="frame" x="32" y="287" width="328" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password again" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ngj-Dn-5yD">
+                                <rect key="frame" x="32" y="357" width="328" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2j1-YQ-UgX">
+                                <rect key="frame" x="155" y="445" width="84" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Sign Up"/>
+                                <connections>
+                                    <action selector="butonaTiklandi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bvl-d7-l70"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Dic-dd-Knl" firstAttribute="trailing" secondItem="Ngj-Dn-5yD" secondAttribute="trailing" id="9TX-Mk-nT5"/>
+                            <constraint firstItem="Go4-V2-FIB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ECA-5I-iYe"/>
+                            <constraint firstItem="2j1-YQ-UgX" firstAttribute="top" secondItem="Ngj-Dn-5yD" secondAttribute="bottom" constant="54" id="FXA-ys-At8"/>
+                            <constraint firstItem="Go4-V2-FIB" firstAttribute="trailing" secondItem="Dic-dd-Knl" secondAttribute="trailing" id="Fuc-SE-lRO"/>
+                            <constraint firstItem="Go4-V2-FIB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="ISE-wx-rOG"/>
+                            <constraint firstItem="2j1-YQ-UgX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MVu-F6-o5B"/>
+                            <constraint firstItem="2j1-YQ-UgX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="155" id="Ma7-tc-H6R"/>
+                            <constraint firstItem="Go4-V2-FIB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="101" id="Znt-Ps-rxu"/>
+                            <constraint firstItem="Dic-dd-Knl" firstAttribute="top" secondItem="Go4-V2-FIB" secondAttribute="bottom" constant="34" id="fBH-Su-1PB"/>
+                            <constraint firstItem="Dic-dd-Knl" firstAttribute="leading" secondItem="Ngj-Dn-5yD" secondAttribute="leading" id="fi4-ws-WXq"/>
+                            <constraint firstItem="Ngj-Dn-5yD" firstAttribute="top" secondItem="Dic-dd-Knl" secondAttribute="bottom" constant="36" id="pdV-B3-yw6"/>
+                            <constraint firstItem="Go4-V2-FIB" firstAttribute="leading" secondItem="Dic-dd-Knl" secondAttribute="leading" id="uUE-5D-KRg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailText" destination="Go4-V2-FIB" id="xfj-L5-4bd"/>
+                        <outlet property="passwordText" destination="Dic-dd-Knl" id="y8A-rF-omY"/>
+                        <outlet property="passwordTextTwo" destination="Ngj-Dn-5yD" id="CSd-WL-ccF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="12.977099236641221" y="-34.507042253521128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

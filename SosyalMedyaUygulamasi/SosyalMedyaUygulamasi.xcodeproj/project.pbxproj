@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C2864F22E4CA99C00F4E278 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5C2864F12E4CA99C00F4E278 /* FirebaseAuth */; };
+		5C2864F42E4CA99C00F4E278 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 5C2864F32E4CA99C00F4E278 /* FirebaseFirestore */; };
+		5C2864F62E4CA99C00F4E278 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 5C2864F52E4CA99C00F4E278 /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C2864D12E4C9EC600F4E278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C2864B22E4C9EC500F4E278 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C2864B92E4C9EC500F4E278;
+			remoteInfo = SosyalMedyaUygulamasi;
+		};
+		5C2864DB2E4C9EC600F4E278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C2864B22E4C9EC500F4E278 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C2864B92E4C9EC500F4E278;
+			remoteInfo = SosyalMedyaUygulamasi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C2864BA2E4C9EC500F4E278 /* SosyalMedyaUygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SosyalMedyaUygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2864D02E4C9EC600F4E278 /* SosyalMedyaUygulamasiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SosyalMedyaUygulamasiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2864DA2E4C9EC600F4E278 /* SosyalMedyaUygulamasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SosyalMedyaUygulamasiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5C2864E22E4C9EC600F4E278 /* Exceptions for "SosyalMedyaUygulamasi" folder in "SosyalMedyaUygulamasi" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5C2864B92E4C9EC500F4E278 /* SosyalMedyaUygulamasi */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5C2864BC2E4C9EC500F4E278 /* SosyalMedyaUygulamasi */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5C2864E22E4C9EC600F4E278 /* Exceptions for "SosyalMedyaUygulamasi" folder in "SosyalMedyaUygulamasi" target */,
+			);
+			path = SosyalMedyaUygulamasi;
+			sourceTree = "<group>";
+		};
+		5C2864D32E4C9EC600F4E278 /* SosyalMedyaUygulamasiTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SosyalMedyaUygulamasiTests;
+			sourceTree = "<group>";
+		};
+		5C2864DD2E4C9EC600F4E278 /* SosyalMedyaUygulamasiUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SosyalMedyaUygulamasiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C2864B72E4C9EC500F4E278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C2864F22E4CA99C00F4E278 /* FirebaseAuth in Frameworks */,
+				5C2864F42E4CA99C00F4E278 /* FirebaseFirestore in Frameworks */,
+				5C2864F62E4CA99C00F4E278 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2864CD2E4C9EC600F4E278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2864D72E4C9EC600F4E278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C2864B12E4C9EC500F4E278 = {
+			isa = PBXGroup;
+			children = (
+				5C2864BC2E4C9EC500F4E278 /* SosyalMedyaUygulamasi */,
+				5C2864D32E4C9EC600F4E278 /* SosyalMedyaUygulamasiTests */,
+				5C2864DD2E4C9EC600F4E278 /* SosyalMedyaUygulamasiUITests */,
+				5C2864BB2E4C9EC500F4E278 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C2864BB2E4C9EC500F4E278 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C2864BA2E4C9EC500F4E278 /* SosyalMedyaUygulamasi.app */,
+				5C2864D02E4C9EC600F4E278 /* SosyalMedyaUygulamasiTests.xctest */,
+				5C2864DA2E4C9EC600F4E278 /* SosyalMedyaUygulamasiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C2864B92E4C9EC500F4E278 /* SosyalMedyaUygulamasi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C2864E32E4C9EC600F4E278 /* Build configuration list for PBXNativeTarget "SosyalMedyaUygulamasi" */;
+			buildPhases = (
+				5C2864B62E4C9EC500F4E278 /* Sources */,
+				5C2864B72E4C9EC500F4E278 /* Frameworks */,
+				5C2864B82E4C9EC500F4E278 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5C2864BC2E4C9EC500F4E278 /* SosyalMedyaUygulamasi */,
+			);
+			name = SosyalMedyaUygulamasi;
+			packageProductDependencies = (
+				5C2864F12E4CA99C00F4E278 /* FirebaseAuth */,
+				5C2864F32E4CA99C00F4E278 /* FirebaseFirestore */,
+				5C2864F52E4CA99C00F4E278 /* FirebaseStorage */,
+			);
+			productName = SosyalMedyaUygulamasi;
+			productReference = 5C2864BA2E4C9EC500F4E278 /* SosyalMedyaUygulamasi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C2864CF2E4C9EC600F4E278 /* SosyalMedyaUygulamasiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C2864E82E4C9EC600F4E278 /* Build configuration list for PBXNativeTarget "SosyalMedyaUygulamasiTests" */;
+			buildPhases = (
+				5C2864CC2E4C9EC600F4E278 /* Sources */,
+				5C2864CD2E4C9EC600F4E278 /* Frameworks */,
+				5C2864CE2E4C9EC600F4E278 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C2864D22E4C9EC600F4E278 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5C2864D32E4C9EC600F4E278 /* SosyalMedyaUygulamasiTests */,
+			);
+			name = SosyalMedyaUygulamasiTests;
+			packageProductDependencies = (
+			);
+			productName = SosyalMedyaUygulamasiTests;
+			productReference = 5C2864D02E4C9EC600F4E278 /* SosyalMedyaUygulamasiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C2864D92E4C9EC600F4E278 /* SosyalMedyaUygulamasiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C2864EB2E4C9EC600F4E278 /* Build configuration list for PBXNativeTarget "SosyalMedyaUygulamasiUITests" */;
+			buildPhases = (
+				5C2864D62E4C9EC600F4E278 /* Sources */,
+				5C2864D72E4C9EC600F4E278 /* Frameworks */,
+				5C2864D82E4C9EC600F4E278 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C2864DC2E4C9EC600F4E278 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5C2864DD2E4C9EC600F4E278 /* SosyalMedyaUygulamasiUITests */,
+			);
+			name = SosyalMedyaUygulamasiUITests;
+			packageProductDependencies = (
+			);
+			productName = SosyalMedyaUygulamasiUITests;
+			productReference = 5C2864DA2E4C9EC600F4E278 /* SosyalMedyaUygulamasiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C2864B22E4C9EC500F4E278 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					5C2864B92E4C9EC500F4E278 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					5C2864CF2E4C9EC600F4E278 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 5C2864B92E4C9EC500F4E278;
+					};
+					5C2864D92E4C9EC600F4E278 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 5C2864B92E4C9EC500F4E278;
+					};
+				};
+			};
+			buildConfigurationList = 5C2864B52E4C9EC500F4E278 /* Build configuration list for PBXProject "SosyalMedyaUygulamasi" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C2864B12E4C9EC500F4E278;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5C2864F02E4CA99C00F4E278 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				5C2865072E55B1B900F4E278 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5C2864BB2E4C9EC500F4E278 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C2864B92E4C9EC500F4E278 /* SosyalMedyaUygulamasi */,
+				5C2864CF2E4C9EC600F4E278 /* SosyalMedyaUygulamasiTests */,
+				5C2864D92E4C9EC600F4E278 /* SosyalMedyaUygulamasiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C2864B82E4C9EC500F4E278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2864CE2E4C9EC600F4E278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2864D82E4C9EC600F4E278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C2864B62E4C9EC500F4E278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2864CC2E4C9EC600F4E278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2864D62E4C9EC600F4E278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C2864D22E4C9EC600F4E278 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C2864B92E4C9EC500F4E278 /* SosyalMedyaUygulamasi */;
+			targetProxy = 5C2864D12E4C9EC600F4E278 /* PBXContainerItemProxy */;
+		};
+		5C2864DC2E4C9EC600F4E278 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C2864B92E4C9EC500F4E278 /* SosyalMedyaUygulamasi */;
+			targetProxy = 5C2864DB2E4C9EC600F4E278 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5C2864E42E4C9EC600F4E278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BM54N534ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SosyalMedyaUygulamasi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozlemcihan.SosyalMedyaUygulamasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C2864E52E4C9EC600F4E278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BM54N534ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SosyalMedyaUygulamasi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozlemcihan.SosyalMedyaUygulamasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5C2864E62E4C9EC600F4E278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = BM54N534ZR;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C2864E72E4C9EC600F4E278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = BM54N534ZR;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C2864E92E4C9EC600F4E278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BM54N534ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozlemcihan.SosyalMedyaUygulamasiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SosyalMedyaUygulamasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SosyalMedyaUygulamasi";
+			};
+			name = Debug;
+		};
+		5C2864EA2E4C9EC600F4E278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BM54N534ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozlemcihan.SosyalMedyaUygulamasiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SosyalMedyaUygulamasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SosyalMedyaUygulamasi";
+			};
+			name = Release;
+		};
+		5C2864EC2E4C9EC600F4E278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BM54N534ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozlemcihan.SosyalMedyaUygulamasiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SosyalMedyaUygulamasi;
+			};
+			name = Debug;
+		};
+		5C2864ED2E4C9EC600F4E278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BM54N534ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozlemcihan.SosyalMedyaUygulamasiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SosyalMedyaUygulamasi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C2864B52E4C9EC500F4E278 /* Build configuration list for PBXProject "SosyalMedyaUygulamasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2864E62E4C9EC600F4E278 /* Debug */,
+				5C2864E72E4C9EC600F4E278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C2864E32E4C9EC600F4E278 /* Build configuration list for PBXNativeTarget "SosyalMedyaUygulamasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2864E42E4C9EC600F4E278 /* Debug */,
+				5C2864E52E4C9EC600F4E278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C2864E82E4C9EC600F4E278 /* Build configuration list for PBXNativeTarget "SosyalMedyaUygulamasiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2864E92E4C9EC600F4E278 /* Debug */,
+				5C2864EA2E4C9EC600F4E278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C2864EB2E4C9EC600F4E278 /* Build configuration list for PBXNativeTarget "SosyalMedyaUygulamasiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2864EC2E4C9EC600F4E278 /* Debug */,
+				5C2864ED2E4C9EC600F4E278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5C2864F02E4CA99C00F4E278 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.1.0;
+			};
+		};
+		5C2865072E55B1B900F4E278 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5C2864F12E4CA99C00F4E278 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C2864F02E4CA99C00F4E278 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		5C2864F32E4CA99C00F4E278 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C2864F02E4CA99C00F4E278 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		5C2864F52E4CA99C00F4E278 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C2864F02E4CA99C00F4E278 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5C2864B22E4C9EC500F4E278 /* Project object */;
+}

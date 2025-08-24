@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Sayaclar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zaman: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GWi-Tp-XsZ">
+                                <rect key="frame" x="95" y="118" width="212" height="78"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IiD-OK-zs7">
+                                <rect key="frame" x="158" y="271" width="86" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="FFe-b6-lnW"/>
+                                </constraints>
+                                <buttonConfiguration key="configuration" style="plain" title="BAŞLAT"/>
+                                <connections>
+                                    <action selector="baslatTiklandi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VIR-A2-RnX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GWi-Tp-XsZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="4Cm-SE-ikK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="IiD-OK-zs7" secondAttribute="bottom" constant="478" id="Ji9-Qc-S2l"/>
+                            <constraint firstItem="GWi-Tp-XsZ" firstAttribute="centerX" secondItem="IiD-OK-zs7" secondAttribute="centerX" id="L4e-TX-12h"/>
+                            <constraint firstItem="GWi-Tp-XsZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="95" id="PDF-yB-3q6"/>
+                            <constraint firstItem="IiD-OK-zs7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="158" id="Ybg-nY-rpW"/>
+                            <constraint firstItem="IiD-OK-zs7" firstAttribute="top" secondItem="GWi-Tp-XsZ" secondAttribute="bottom" constant="75" id="ma4-ys-hY1"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="timeLabel" destination="GWi-Tp-XsZ" id="lAr-H0-Vix"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

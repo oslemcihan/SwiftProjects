@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IlkUygulamam" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ankara-da-arsa-yatirimi-nerelerde-ve-nasil-yapilir" translatesAutoresizingMaskIntoConstraints="NO" id="xHq-6C-UBh">
+                                <rect key="frame" x="16" y="178" width="361" height="157"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UiY-ue-LgH">
+                                <rect key="frame" x="137" y="481" width="118" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="9Z2-DM-IPA"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Degistir">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="26"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XQV-it-Kcp"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Ankara" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PTn-qQ-Hnv">
+                                <rect key="frame" x="149" y="404" width="95" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="vuX-sR-kt4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" name="AccentColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="xHq-6C-UBh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="3cu-bZ-SkI"/>
+                            <constraint firstItem="xHq-6C-UBh" firstAttribute="centerX" secondItem="PTn-qQ-Hnv" secondAttribute="centerX" id="HWd-mN-Nn6"/>
+                            <constraint firstItem="xHq-6C-UBh" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="N5E-gh-YIO"/>
+                            <constraint firstItem="UiY-ue-LgH" firstAttribute="top" secondItem="PTn-qQ-Hnv" secondAttribute="bottom" constant="42" id="amj-m2-9nk"/>
+                            <constraint firstItem="xHq-6C-UBh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="im5-bD-vAB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UiY-ue-LgH" secondAttribute="bottom" constant="246" id="l9f-D5-4s7"/>
+                            <constraint firstItem="PTn-qQ-Hnv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="149" id="mlv-OB-Wju"/>
+                            <constraint firstItem="PTn-qQ-Hnv" firstAttribute="top" secondItem="xHq-6C-UBh" secondAttribute="bottom" constant="59" id="psd-rm-J0M"/>
+                            <constraint firstItem="PTn-qQ-Hnv" firstAttribute="centerX" secondItem="UiY-ue-LgH" secondAttribute="centerX" id="riu-Mn-Mcj"/>
+                            <constraint firstItem="UiY-ue-LgH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="137" id="znj-Ss-Xcc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="benimLabel" destination="PTn-qQ-Hnv" id="gld-Vc-Z6D"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5.343511450381679" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ankara-da-arsa-yatirimi-nerelerde-ve-nasil-yapilir" width="1200" height="600"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5CC4FE382E3EC45300CF0661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CC4FE192E3EC45100CF0661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CC4FE202E3EC45100CF0661;
+			remoteInfo = SehirTanitimKitabi;
+		};
+		5CC4FE422E3EC45300CF0661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CC4FE192E3EC45100CF0661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CC4FE202E3EC45100CF0661;
+			remoteInfo = SehirTanitimKitabi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CC4FE212E3EC45100CF0661 /* SehirTanitimKitabi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SehirTanitimKitabi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC4FE372E3EC45300CF0661 /* SehirTanitimKitabiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SehirTanitimKitabiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC4FE412E3EC45300CF0661 /* SehirTanitimKitabiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SehirTanitimKitabiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5CC4FE492E3EC45300CF0661 /* Exceptions for "SehirTanitimKitabi" folder in "SehirTanitimKitabi" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5CC4FE202E3EC45100CF0661 /* SehirTanitimKitabi */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5CC4FE232E3EC45100CF0661 /* SehirTanitimKitabi */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5CC4FE492E3EC45300CF0661 /* Exceptions for "SehirTanitimKitabi" folder in "SehirTanitimKitabi" target */,
+			);
+			path = SehirTanitimKitabi;
+			sourceTree = "<group>";
+		};
+		5CC4FE3A2E3EC45300CF0661 /* SehirTanitimKitabiTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SehirTanitimKitabiTests;
+			sourceTree = "<group>";
+		};
+		5CC4FE442E3EC45300CF0661 /* SehirTanitimKitabiUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SehirTanitimKitabiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CC4FE1E2E3EC45100CF0661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC4FE342E3EC45300CF0661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC4FE3E2E3EC45300CF0661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CC4FE182E3EC45100CF0661 = {
+			isa = PBXGroup;
+			children = (
+				5CC4FE232E3EC45100CF0661 /* SehirTanitimKitabi */,
+				5CC4FE3A2E3EC45300CF0661 /* SehirTanitimKitabiTests */,
+				5CC4FE442E3EC45300CF0661 /* SehirTanitimKitabiUITests */,
+				5CC4FE222E3EC45100CF0661 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CC4FE222E3EC45100CF0661 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CC4FE212E3EC45100CF0661 /* SehirTanitimKitabi.app */,
+				5CC4FE372E3EC45300CF0661 /* SehirTanitimKitabiTests.xctest */,
+				5CC4FE412E3EC45300CF0661 /* SehirTanitimKitabiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CC4FE202E3EC45100CF0661 /* SehirTanitimKitabi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC4FE4A2E3EC45300CF0661 /* Build configuration list for PBXNativeTarget "SehirTanitimKitabi" */;
+			buildPhases = (
+				5CC4FE1D2E3EC45100CF0661 /* Sources */,
+				5CC4FE1E2E3EC45100CF0661 /* Frameworks */,
+				5CC4FE1F2E3EC45100CF0661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5CC4FE232E3EC45100CF0661 /* SehirTanitimKitabi */,
+			);
+			name = SehirTanitimKitabi;
+			packageProductDependencies = (
+			);
+			productName = SehirTanitimKitabi;
+			productReference = 5CC4FE212E3EC45100CF0661 /* SehirTanitimKitabi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CC4FE362E3EC45300CF0661 /* SehirTanitimKitabiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC4FE4F2E3EC45300CF0661 /* Build configuration list for PBXNativeTarget "SehirTanitimKitabiTests" */;
+			buildPhases = (
+				5CC4FE332E3EC45300CF0661 /* Sources */,
+				5CC4FE342E3EC45300CF0661 /* Frameworks */,
+				5CC4FE352E3EC45300CF0661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CC4FE392E3EC45300CF0661 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5CC4FE3A2E3EC45300CF0661 /* SehirTanitimKitabiTests */,
+			);
+			name = SehirTanitimKitabiTests;
+			packageProductDependencies = (
+			);
+			productName = SehirTanitimKitabiTests;
+			productReference = 5CC4FE372E3EC45300CF0661 /* SehirTanitimKitabiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CC4FE402E3EC45300CF0661 /* SehirTanitimKitabiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC4FE522E3EC45300CF0661 /* Build configuration list for PBXNativeTarget "SehirTanitimKitabiUITests" */;
+			buildPhases = (
+				5CC4FE3D2E3EC45300CF0661 /* Sources */,
+				5CC4FE3E2E3EC45300CF0661 /* Frameworks */,
+				5CC4FE3F2E3EC45300CF0661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CC4FE432E3EC45300CF0661 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5CC4FE442E3EC45300CF0661 /* SehirTanitimKitabiUITests */,
+			);
+			name = SehirTanitimKitabiUITests;
+			packageProductDependencies = (
+			);
+			productName = SehirTanitimKitabiUITests;
+			productReference = 5CC4FE412E3EC45300CF0661 /* SehirTanitimKitabiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CC4FE192E3EC45100CF0661 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					5CC4FE202E3EC45100CF0661 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					5CC4FE362E3EC45300CF0661 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 5CC4FE202E3EC45100CF0661;
+					};
+					5CC4FE402E3EC45300CF0661 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 5CC4FE202E3EC45100CF0661;
+					};
+				};
+			};
+			buildConfigurationList = 5CC4FE1C2E3EC45100CF0661 /* Build configuration list for PBXProject "SehirTanitimKitabi" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CC4FE182E3EC45100CF0661;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5CC4FE222E3EC45100CF0661 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CC4FE202E3EC45100CF0661 /* SehirTanitimKitabi */,
+				5CC4FE362E3EC45300CF0661 /* SehirTanitimKitabiTests */,
+				5CC4FE402E3EC45300CF0661 /* SehirTanitimKitabiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CC4FE1F2E3EC45100CF0661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC4FE352E3EC45300CF0661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC4FE3F2E3EC45300CF0661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CC4FE1D2E3EC45100CF0661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC4FE332E3EC45300CF0661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC4FE3D2E3EC45300CF0661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CC4FE392E3EC45300CF0661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CC4FE202E3EC45100CF0661 /* SehirTanitimKitabi */;
+			targetProxy = 5CC4FE382E3EC45300CF0661 /* PBXContainerItemProxy */;
+		};
+		5CC4FE432E3EC45300CF0661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CC4FE202E3EC45100CF0661 /* SehirTanitimKitabi */;
+			targetProxy = 5CC4FE422E3EC45300CF0661 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5CC4FE4B2E3EC45300CF0661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BM54N534ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SehirTanitimKitabi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozlemcihan.SehirTanitimKitabi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CC4FE4C2E3EC45300CF0661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BM54N534ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SehirTanitimKitabi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozlemcihan.SehirTanitimKitabi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5CC4FE4D2E3EC45300CF0661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = BM54N534ZR;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CC4FE4E2E3EC45300CF0661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = BM54N534ZR;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CC4FE502E3EC45300CF0661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BM54N534ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozlemcihan.SehirTanitimKitabiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SehirTanitimKitabi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SehirTanitimKitabi";
+			};
+			name = Debug;
+		};
+		5CC4FE512E3EC45300CF0661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BM54N534ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozlemcihan.SehirTanitimKitabiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SehirTanitimKitabi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SehirTanitimKitabi";
+			};
+			name = Release;
+		};
+		5CC4FE532E3EC45300CF0661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BM54N534ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozlemcihan.SehirTanitimKitabiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SehirTanitimKitabi;
+			};
+			name = Debug;
+		};
+		5CC4FE542E3EC45300CF0661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BM54N534ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozlemcihan.SehirTanitimKitabiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SehirTanitimKitabi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CC4FE1C2E3EC45100CF0661 /* Build configuration list for PBXProject "SehirTanitimKitabi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC4FE4D2E3EC45300CF0661 /* Debug */,
+				5CC4FE4E2E3EC45300CF0661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC4FE4A2E3EC45300CF0661 /* Build configuration list for PBXNativeTarget "SehirTanitimKitabi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC4FE4B2E3EC45300CF0661 /* Debug */,
+				5CC4FE4C2E3EC45300CF0661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC4FE4F2E3EC45300CF0661 /* Build configuration list for PBXNativeTarget "SehirTanitimKitabiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC4FE502E3EC45300CF0661 /* Debug */,
+				5CC4FE512E3EC45300CF0661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC4FE522E3EC45300CF0661 /* Build configuration list for PBXNativeTarget "SehirTanitimKitabiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC4FE532E3EC45300CF0661 /* Debug */,
+				5CC4FE542E3EC45300CF0661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CC4FE192E3EC45100CF0661 /* Project object */;
+}
